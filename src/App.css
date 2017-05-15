@@ -27,8 +27,19 @@
   background-color: #eee;
   display: inline-block;
   border: 1px solid #666;
+  float: left;
+}
+
+.tabber:hover {
+    cursor: pointer;
 }
 
 .plus {
   display: inline-block;
+  /*float: left;*/
+}
+
+.textarea {
+  display: block;
+  margin: 5px;
 }

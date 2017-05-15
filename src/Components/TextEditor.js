@@ -3,10 +3,9 @@ import '../App.css';
 
 class TextEditor extends Component {
   render() {
-    // console.log(this);
     return (
       <div>
-        <textarea
+        <textarea className="textarea"
           value={this.props.value}
           onChange={this.props.onChange}
         />
